@@ -7,7 +7,7 @@
 
 <p align="center"> Data Engineer, SaaS builder, and founder of Enterprise Hare LLC. </p>
 
-##	<p align="center"> [Website](https://merrickhare.com) </p>
+##	<p align="center"> [Website](https://merrickhare.com) --- [Basic AI Assistant](https://github.com/merrickhare/AI-Agent-Assistant) </p>
 
 <!-- Neon badges (compact, single-line) -->
 <p align="center" style="white-space:nowrap;overflow-x:auto;">
