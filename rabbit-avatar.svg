@@ -1,0 +1,42 @@
+<svg width="160" height="160" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rabbitGoldFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <radialGradient id="rabbitGlowFill" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- subtle glow circle -->
+  <circle cx="50" cy="50" r="46" fill="url(#rabbitGlowFill)" />
+
+  <!-- filled left ear -->
+  <path d="M35 38 Q33 18 37 8 Q40 2 44 8 Q48 16 45 38" fill="url(#rabbitGoldFill)" stroke="none"/>
+  <!-- inner left ear -->
+  <path d="M37.5 32 Q36.5 20 39 12 Q41 8 42.5 12 Q44.5 18 43 32" fill="#fbbf24" opacity="0.4" stroke="none"/>
+
+  <!-- filled right ear -->
+  <path d="M55 38 Q53 16 57 6 Q60 0 64 7 Q68 15 65 38" fill="url(#rabbitGoldFill)" stroke="none"/>
+  <!-- inner right ear -->
+  <path d="M57.5 32 Q56 18 59 10 Q61 5 62.5 10 Q64.5 17 63 32" fill="#fbbf24" opacity="0.4" stroke="none"/>
+
+  <!-- filled head/body -->
+  <path d="M33 48 Q30 38 38 34 Q44 32 50 33 Q56 32 62 34 Q70 38 67 48 Q66 54 62 58 Q56 63 50 64 Q44 63 38 58 Q34 54 33 48Z" fill="url(#rabbitGoldFill)" stroke="none" />
+
+  <!-- eyes, nose, mouth (kept simple and filled) -->
+  <circle cx="42" cy="44" r="2.2" fill="#ffffff" opacity="0.95" />
+  <circle cx="58" cy="44" r="2.2" fill="#ffffff" opacity="0.95" />
+  <ellipse cx="50" cy="52" rx="2" ry="1.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M50 53.5 Q50 56 48 57" stroke="#ffffff" stroke-width="0.6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M50 53.5 Q50 56 52 57" stroke="#ffffff" stroke-width="0.6" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- front paws simplified -->
+  <path d="M38 62 Q34 68 33 76 Q32 84 38 90 Q44 96 50 96 Q56 96 62 90 Q68 84 67 76 Q66 68 62 62" fill="url(#rabbitGoldFill)" stroke="none"/>
+  <path d="M40 88 Q38 92 36 94 Q34 96 36 97" fill="#fbbf24" opacity="0.6" stroke="none"/>
+  <path d="M60 88 Q62 92 64 94 Q66 96 64 97" fill="#fbbf24" opacity="0.6" stroke="none"/>
+
+</svg>

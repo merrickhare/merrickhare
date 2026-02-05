@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020" />
+      <stop offset="60%" stop-color="#0f1530" />
+      <stop offset="100%" stop-color="#061028" />
+    </linearGradient>
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)" />
+
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="100" cy="40" r="1.6" opacity="0.9"/>
+    <circle cx="220" cy="20" r="1.2" opacity="0.7"/>
+    <circle cx="340" cy="60" r="1.4" opacity="0.8"/>
+    <circle cx="520" cy="30" r="1.1" opacity="0.7"/>
+    <circle cx="760" cy="50" r="1.8" opacity="0.8"/>
+    <circle cx="980" cy="24" r="1.3" opacity="0.7"/>
+    <circle cx="1120" cy="42" r="1.1" opacity="0.6"/>
+  </g>
+
+  <!-- crescent moon -->
+  <g transform="translate(980,70) scale(1.1)">
+    <path d="M28 2a26 26 0 1 0 0 52 18 18 0 0 1 0-52z" fill="#fef9c3" opacity="0.95"/>
+    <path d="M36 12a20 20 0 1 0 0 40 14 14 0 0 1 0-40z" fill="#0b1020" opacity="0.85"/>
+  </g>
+
+  <!-- skyline silhouette -->
+  <g fill="#020617">
+    <rect x="0" y="150" width="80" height="130" />
+    <rect x="90" y="120" width="70" height="160" />
+    <rect x="170" y="140" width="50" height="140" />
+    <rect x="230" y="90" width="90" height="190" />
+    <rect x="330" y="160" width="60" height="120" />
+    <rect x="400" y="110" width="100" height="170" />
+    <rect x="520" y="130" width="70" height="150" />
+    <rect x="610" y="100" width="110" height="180" />
+    <rect x="740" y="150" width="60" height="130" />
+    <rect x="820" y="130" width="90" height="150" />
+    <rect x="930" y="140" width="50" height="140" />
+    <rect x="1000" y="120" width="80" height="160" />
+    <rect x="1090" y="170" width="110" height="110" />
+  </g>
+
+  <!-- neon windows -->
+  <g fill="url(#neon)" opacity="0.95">
+    <rect x="98" y="140" width="6" height="12" rx="1"/>
+    <rect x="108" y="140" width="6" height="12" rx="1"/>
+    <rect x="118" y="140" width="6" height="12" rx="1"/>
+    <rect x="98" y="160" width="6" height="12" rx="1"/>
+
+    <rect x="238" y="110" width="6" height="12" rx="1"/>
+    <rect x="248" y="110" width="6" height="12" rx="1"/>
+    <rect x="258" y="110" width="6" height="12" rx="1"/>
+
+    <rect x="412" y="130" width="8" height="16" rx="1"/>
+    <rect x="430" y="130" width="8" height="16" rx="1"/>
+    <rect x="448" y="130" width="8" height="16" rx="1"/>
+
+    <rect x="620" y="120" width="6" height="12" rx="1"/>
+    <rect x="632" y="120" width="6" height="12" rx="1"/>
+
+    <rect x="850" y="140" width="6" height="12" rx="1"/>
+    <rect x="862" y="140" width="6" height="12" rx="1"/>
+
+    <rect x="1008" y="130" width="6" height="12" rx="1"/>
+    <rect x="1018" y="130" width="6" height="12" rx="1"/>
+  </g>
+
+  <!-- neon horizon line -->
+  <rect x="0" y="148" width="1200" height="3" fill="url(#neon)" opacity="0.25" />
+
+  <!-- small neon trail (like a distant light) -->
+  <circle cx="200" cy="200" r="4" fill="#7dd3fc" opacity="0.18" />
+  <circle cx="205" cy="204" r="2" fill="#f472b6" opacity="0.12" />
+
+  <!-- subtle glow rings (safe, simple shapes) -->
+  <g fill="#7c3aed" opacity="0.06">
+    <ellipse cx="400" cy="50" rx="120" ry="30" />
+    <ellipse cx="820" cy="80" rx="180" ry="45" />
+  </g>
+</svg>
