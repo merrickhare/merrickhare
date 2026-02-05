@@ -3,7 +3,7 @@
   <img src="rabbit-avatar.svg" alt="Merrick Hare avatar" width="220" style="border-radius:12px;" />
 </p>
 
-# <p align="center">Merrick Hare — Data Engineer & Builder</p>
+# <p align="center">Merrick Hare — Data Engineer & SaaS Builder</p>
 
 <p align="center"> Data Engineer, SaaS builder, and founder of Enterprise Hare LLC. </p>
 
