@@ -1,6 +1,6 @@
 <!-- Night city header image -->
 <p align="center">
-	<img src="../images/night-city.svg" alt="Night City skyline" width="900" />
+	<img src="night-city.svg" alt="Night City skyline" width="900" />
 </p>
 
 # Hi, I’m Merrick Hare 👋
@@ -11,14 +11,13 @@
 
 <!-- Neon badges -->
 <p align="center">
-	<img src="https://img.shields.io/badge/Currently-Building%20Data%20Pipelines-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="building" />
-	<img src="https://img.shields.io/badge/Primary-Languages-Python%20%7C%20SQL-00d1ff?style=for-the-badge&logo=python&logoColor=white" alt="languages" />
-	<img src="https://img.shields.io/badge/Design-Neon%20City-ff6ad5?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="neon" />
-</p>
-
-<p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=merrickhare&show_icons=true&theme=dark&count_private=true" alt="Merrick's GitHub stats" />
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=merrickhare&layout=compact&theme=dark" alt="Top languages" />
+	<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+	<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+	<img src="https://img.shields.io/badge/SQL-4DB33D-0F172A?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+	<img src="https://img.shields.io/badge/Azure-Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
+	<img src="https://img.shields.io/badge/AWS-Amazon%20Web%20Services-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
 </p>
 
 ## About
