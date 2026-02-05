@@ -1,11 +1,11 @@
 <!-- Night city header image -->
 <p align="center">
-	<img src="../images/night-city.svg" alt="Night City skyline" width="900" />
+	<img src="night-city.svg" alt="Night City skyline" width="900" />
 </p>
 
 <!-- Avatar -->
 <p align="center">
-  <img src="../images/rabbit-avatar.svg" alt="Merrick Hare avatar" width="120" style="border-radius:12px;" />
+  <img src="rabbit-avatar.svg" alt="Merrick Hare avatar" width="120" style="border-radius:12px;" />
 </p>
 
 # Merrick Hare — Data Engineer & Builder 👋
