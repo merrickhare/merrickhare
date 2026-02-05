@@ -1,11 +1,6 @@
-<!-- Night city header image -->
-<p align="center">
-	<img src="night-city.svg" alt="Night City skyline" width="900" />
-</p>
-
 <!-- Avatar -->
 <p align="center">
-  <img src="rabbit-avatar.svg" alt="Merrick Hare avatar" width="120" style="border-radius:12px;" />
+  <img src="rabbit-avatar.svg" alt="Merrick Hare avatar" width="220" style="border-radius:12px;" />
 </p>
 
 # <p align="center">Merrick Hare — Data Engineer & Builder</p>
