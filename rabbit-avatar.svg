@@ -1,42 +1,189 @@
-<svg width="160" height="160" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 100 100" role="img" aria-label="Kawaii rabbit logo with tie and collar">
   <defs>
-    <linearGradient id="rabbitGoldFill" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="badgeGold" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fde68a"/>
-      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="60%" stop-color="#fbbf24"/>
       <stop offset="100%" stop-color="#d97706"/>
     </linearGradient>
-    <radialGradient id="rabbitGlowFill" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+
+    <!-- Bunny palette (slightly darker/richer for better contrast) -->
+    <linearGradient id="bunny" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e6"/>
+      <stop offset="100%" stop-color="#ead7c6"/>
+    </linearGradient>
+    <linearGradient id="earPink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd6e7"/>
+      <stop offset="100%" stop-color="#ffb4d1"/>
+    </linearGradient>
+
+    <linearGradient id="tie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <radialGradient id="globeFade" cx="50%" cy="48%" r="70%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.00"/>
     </radialGradient>
+
+    <clipPath id="globeClip">
+      <circle cx="50" cy="50" r="43.2"/>
+    </clipPath>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.1" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
   </defs>
 
-  <!-- subtle glow circle -->
-  <circle cx="50" cy="50" r="46" fill="url(#rabbitGlowFill)" />
+  <!-- Globe background -->
+  <g clip-path="url(#globeClip)">
+    <circle cx="50" cy="50" r="46" fill="url(#globeFade)"/>
 
-  <!-- filled left ear -->
-  <path d="M35 38 Q33 18 37 8 Q40 2 44 8 Q48 16 45 38" fill="url(#rabbitGoldFill)" stroke="none"/>
-  <!-- inner left ear -->
-  <path d="M37.5 32 Q36.5 20 39 12 Q41 8 42.5 12 Q44.5 18 43 32" fill="#fbbf24" opacity="0.4" stroke="none"/>
+    <!-- Globe grid (clean + reaches edges) -->
+    <g fill="none" stroke="#0ea5e9" stroke-width="0.8" opacity="0.16">
+      <circle cx="50" cy="50" r="43.2" opacity="0.10"/>
 
-  <!-- filled right ear -->
-  <path d="M55 38 Q53 16 57 6 Q60 0 64 7 Q68 15 65 38" fill="url(#rabbitGoldFill)" stroke="none"/>
-  <!-- inner right ear -->
-  <path d="M57.5 32 Q56 18 59 10 Q61 5 62.5 10 Q64.5 17 63 32" fill="#fbbf24" opacity="0.4" stroke="none"/>
+      <!-- longitudes -->
+      <ellipse cx="50" cy="50" rx="10" ry="43.2"/>
+      <ellipse cx="50" cy="50" rx="20" ry="43.2"/>
+      <ellipse cx="50" cy="50" rx="30" ry="43.2"/>
+      <ellipse cx="50" cy="50" rx="41.5" ry="43.2"/>
 
-  <!-- filled head/body -->
-  <path d="M33 48 Q30 38 38 34 Q44 32 50 33 Q56 32 62 34 Q70 38 67 48 Q66 54 62 58 Q56 63 50 64 Q44 63 38 58 Q34 54 33 48Z" fill="url(#rabbitGoldFill)" stroke="none" />
+      <!-- latitudes -->
+      <ellipse cx="50" cy="50" rx="43.2" ry="12"/>
+      <ellipse cx="50" cy="50" rx="43.2" ry="24"/>
+      <ellipse cx="50" cy="50" rx="43.2" ry="36"/>
+      <ellipse cx="50" cy="50" rx="43.2" ry="42.0"/>
+    </g>
+  </g>
 
-  <!-- eyes, nose, mouth (kept simple and filled) -->
-  <circle cx="42" cy="44" r="2.2" fill="#ffffff" opacity="0.95" />
-  <circle cx="58" cy="44" r="2.2" fill="#ffffff" opacity="0.95" />
-  <ellipse cx="50" cy="52" rx="2" ry="1.5" fill="#ffffff" opacity="0.9"/>
-  <path d="M50 53.5 Q50 56 48 57" stroke="#ffffff" stroke-width="0.6" fill="none" opacity="0.6" stroke-linecap="round"/>
-  <path d="M50 53.5 Q50 56 52 57" stroke="#ffffff" stroke-width="0.6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Gold ring -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="url(#badgeGold)" stroke-width="1.8" opacity="0.96"/>
 
-  <!-- front paws simplified -->
-  <path d="M38 62 Q34 68 33 76 Q32 84 38 90 Q44 96 50 96 Q56 96 62 90 Q68 84 67 76 Q66 68 62 62" fill="url(#rabbitGoldFill)" stroke="none"/>
-  <path d="M40 88 Q38 92 36 94 Q34 96 36 97" fill="#fbbf24" opacity="0.6" stroke="none"/>
-  <path d="M60 88 Q62 92 64 94 Q66 96 64 97" fill="#fbbf24" opacity="0.6" stroke="none"/>
+  <!-- Bunny -->
+  <g filter="url(#softShadow)">
+    <!-- EARS -->
+    <path d="M34 44 C30 34 32 20 38 12 C42 7 47 12 47 18 C47 26 45 35 44 44 C41 47 37 47 34 44 Z" fill="url(#bunny)"/>
+    <path d="M37 42 C34 34 35 23 39 16 C41 12 45 15 45 20 C45 27 44 34 43 42 C41.5 44 38.5 44 37 42 Z" fill="url(#earPink)" opacity="0.95"/>
 
+    <path d="M66 44 C63 47 59 47 56 44 C55 35 53 26 53 18 C53 12 58 7 62 12 C68 20 70 34 66 44 Z" fill="url(#bunny)"/>
+    <path d="M63 42 C61.5 44 58.5 44 57 42 C56 34 55 27 55 20 C55 15 59 12 61 16 C65 23 66 34 63 42 Z" fill="url(#earPink)" opacity="0.95"/>
+
+    <!-- BODY -->
+    <path d="M34 66
+             C30.8 72.5 30 79.5 31.5 86
+             C34.2 95 41.8 99 50 99
+             C58.2 99 65.8 95 68.5 86
+             C70 79.5 69.2 72.5 66 66
+             C61 68.5 56 69.5 50 69.5
+             C44 69.5 39 68.5 34 66 Z" fill="url(#bunny)"/>
+
+    <!-- HAND PAWS -->
+    <g>
+      <path d="M30.9 78.8
+               C29.1 80.2 28.8 83.0 30.5 84.7
+               C32.2 86.5 35.3 86.3 36.9 84.6
+               C38.6 82.7 38.1 79.9 36.1 78.8
+               C34.4 77.9 32.4 77.9 30.9 78.8 Z" fill="#efe3d3"/>
+      <g fill="#ffb4d1" opacity="0.95">
+        <ellipse cx="32.6" cy="82.1" rx="0.95" ry="0.75"/>
+        <ellipse cx="34.0" cy="81.4" rx="0.95" ry="0.75"/>
+        <ellipse cx="35.4" cy="82.1" rx="0.95" ry="0.75"/>
+      </g>
+
+      <path d="M69.1 78.8
+               C67.6 77.9 65.6 77.9 63.9 78.8
+               C61.9 79.9 61.4 82.7 63.1 84.6
+               C64.7 86.3 67.8 86.5 69.5 84.7
+               C71.2 83.0 70.9 80.2 69.1 78.8 Z" fill="#efe3d3"/>
+      <g fill="#ffb4d1" opacity="0.95">
+        <ellipse cx="64.6" cy="82.1" rx="0.95" ry="0.75"/>
+        <ellipse cx="66.0" cy="81.4" rx="0.95" ry="0.75"/>
+        <ellipse cx="67.4" cy="82.1" rx="0.95" ry="0.75"/>
+      </g>
+    </g>
+
+    <!-- HEAD -->
+    <path d="M28 52
+             C28 39 38 31 50 31
+             C62 31 72 39 72 52
+             C72 66 62 73 50 73
+             C38 73 28 66 28 52 Z" fill="url(#bunny)"/>
+
+    <!-- COLLAR -->
+    <g transform="translate(0,4.6)">
+      <path d="M46.1 71.6
+               C44.6 71.1 43.6 70.2 43.1 69.2
+               C45.0 68.2 47.2 67.7 50.0 67.7
+               C48.9 69.9 47.7 71.0 46.1 71.6 Z"
+            fill="#e5e7eb" opacity="0.98"/>
+      <path d="M53.9 71.6
+               C52.3 71.0 51.1 69.9 50.0 67.7
+               C52.8 67.7 55.0 68.2 56.9 69.2
+               C56.4 70.2 55.4 71.1 53.9 71.6 Z"
+            fill="#e5e7eb" opacity="0.98"/>
+    </g>
+
+    <!-- TIE -->
+    <g transform="translate(0,1.6)">
+      <path d="M49.0 72.6
+               C49.0 71.8 49.5 71.2 50.0 71.2
+               C50.5 71.2 51.0 71.8 51.0 72.6
+               C51.0 73.4 50.5 74.0 50.0 74.0
+               C49.5 74.0 49.0 73.4 49.0 72.6 Z"
+            fill="url(#tie)"/>
+      <path d="M50 73.9
+               C50.9 75.2 51.3 76.5 51.2 78.0
+               C51.1 79.8 50.5 80.9 50 82.5
+               C49.5 80.9 48.9 79.8 48.8 78.0
+               C48.7 76.5 49.1 75.2 50 73.9 Z"
+            fill="url(#tie)"/>
+      <path d="M49.6 74.6 C50.0 75.3 50.2 76.1 50.1 77.2"
+            fill="none" stroke="#fff" stroke-width="0.55" stroke-linecap="round" opacity="0.18"/>
+    </g>
+
+    <!-- FEET PAWS -->
+    <g>
+      <path d="M34.6 94.6
+               C34.6 91.2 37.6 88.7 41.6 88.7
+               C45.6 88.7 48.6 91.2 48.6 94.6
+               C48.6 98.0 45.7 99.2 41.6 99.2
+               C37.5 99.2 34.6 98.0 34.6 94.6 Z" fill="#eadfce"/>
+      <g fill="#ffb4d1" opacity="0.95">
+        <ellipse cx="39.4" cy="94.0" rx="1.05" ry="0.85"/>
+        <ellipse cx="41.6" cy="93.2" rx="1.05" ry="0.85"/>
+        <ellipse cx="43.8" cy="94.0" rx="1.05" ry="0.85"/>
+      </g>
+
+      <path d="M51.4 94.6
+               C51.4 91.2 54.4 88.7 58.4 88.7
+               C62.4 88.7 65.4 91.2 65.4 94.6
+               C65.4 98.0 62.5 99.2 58.4 99.2
+               C54.3 99.2 51.4 98.0 51.4 94.6 Z" fill="#eadfce"/>
+      <g fill="#ffb4d1" opacity="0.95">
+        <ellipse cx="56.2" cy="94.0" rx="1.05" ry="0.85"/>
+        <ellipse cx="58.4" cy="93.2" rx="1.05" ry="0.85"/>
+        <ellipse cx="60.6" cy="94.0" rx="1.05" ry="0.85"/>
+      </g>
+    </g>
+
+    <!-- FACE -->
+    <g>
+      <circle cx="41.5" cy="53" r="2.4" fill="#2b2b2b" opacity="0.92"/>
+      <circle cx="58.5" cy="53" r="2.4" fill="#2b2b2b" opacity="0.92"/>
+      <circle cx="40.7" cy="52.2" r="0.9" fill="#fff" opacity="0.95"/>
+      <circle cx="57.7" cy="52.2" r="0.9" fill="#fff" opacity="0.95"/>
+    </g>
+
+    <g fill="#ffb4d1" opacity="0.28">
+      <ellipse cx="35.8" cy="59.2" rx="4.3" ry="2.6"/>
+      <ellipse cx="64.2" cy="59.2" rx="4.3" ry="2.6"/>
+    </g>
+
+    <g fill="none" stroke="#2b2b2b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
+      <path d="M50 56.8 L48.8 58.0 Q50 59.1 51.2 58.0 Z" fill="#ffb4d1" stroke="none" opacity="0.95"/>
+      <path d="M50 59.2 Q50 61.2 48.2 62.3"/>
+      <path d="M50 59.2 Q50 61.2 51.8 62.3"/>
+    </g>
+  </g>
 </svg>
