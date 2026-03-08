@@ -7,7 +7,7 @@
 
 <p align="center"> Data Engineer, SaaS builder, and founder of Enterprise Hare LLC. </p>
 
-##	<p align="center"> [Website](https://merrickhare.com) --- [Basic AI Assistant](https://github.com/merrickhare/AI-Agent-Assistant) </p>
+##	<p align="center"> [Website](https://merrickhare.com) --- [Basic AI Assistant](https://github.com/merrickhare/AI-Agent-Assistant) --- [Free iOS Build & Submit To Store CLI](https://www.npmjs.com/package/green-line-cli) </p>
 
 <!-- Neon badges (compact, single-line) -->
 <p align="center" style="white-space:nowrap;overflow-x:auto;">
@@ -42,6 +42,8 @@ Full-time Data Engineer by day. SaaS creator & founder of Enterprise Hare LLC by
 
 - Image Analyzer: https://www.imageanalyzer.io
 - Enterprise Hare LLC: https://www.enterprisehare.com
+- Zero Branch: https://www.zerobranch.io
+
 
 
 ## Certifications
