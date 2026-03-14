@@ -43,6 +43,7 @@ Full-time Data Engineer by day. SaaS creator & founder of Enterprise Hare LLC by
 - Image Analyzer: https://www.imageanalyzer.io
 - Enterprise Hare LLC: https://www.enterprisehare.com
 - Zero Branch: https://www.zerobranch.io
+- Indie Spend: https://www.indiespend.com
 
 
 
