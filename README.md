@@ -38,15 +38,6 @@ Full-time Data Engineer by day. SaaS creator & founder of Enterprise Hare LLC by
 - GitHub: https://github.com/merrickhare
 - Portfolio: https://merrickhare.com
 
-## My Sites
-
-- Image Analyzer: https://www.imageanalyzer.io
-- Enterprise Hare LLC: https://www.enterprisehare.com
-- Zero Branch: https://www.zerobranch.io
-- Indie Spend: https://www.indiespend.com
-
-
-
 ## Certifications
 
 <!-- Table layout is used because GitHub strips some inline styles (like `display:flex`). -->
