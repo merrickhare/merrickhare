@@ -5,7 +5,7 @@
 
 # <p align="center">Merrick Hare — Data Engineer & SaaS Builder</p>
 
-<p align="center"> Data Engineer, SaaS builder, and founder of Enterprise Hare LLC. </p>
+<p align="center"> Data Engineer, SaaS builder, Independent Security Researcher </p>
 
 ##	<p align="center"> [Website](https://merrickhare.com) --- [Basic AI Assistant](https://github.com/merrickhare/AI-Agent-Assistant) --- [Free iOS Build & Submit To Store CLI](https://www.npmjs.com/package/green-line-cli) </p>
 
